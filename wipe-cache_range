@@ -1,0 +1,6 @@
+#!/bin/bash
+
+for i in {1..255}
+do
+           rec_control wipe-cache $i.0.233.37.in-addr.arpa
+done
